@@ -1,0 +1,1 @@
+import './globals.css';import './horizon.css';import{Nav,Footer}from'../components/site';export const metadata={title:'Decillium — Toward Intelligence Without Limits',description:'Decillium is a frontier AI research laboratory.'};export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en"><body><Nav/>{children}<Footer/></body></html>}
